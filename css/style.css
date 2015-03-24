@@ -1,0 +1,136 @@
+body{
+	font-family: helvetica;
+	width: 440px;
+}
+
+.blessing-platinum{
+	border-radius: 100% 100% 0% 100%;
+	float: left;
+}
+
+.blessing-platinum-name{
+	position: relative;
+	top: 20px;
+	left: 10px;
+
+}
+
+.blessing-platinum-at{
+	color: gray;
+}
+
+.hours-ago{
+	color: black;
+}
+
+#hours-ago-gray{
+	color: gray;
+	position: relative;
+	left: 40px;
+}
+
+.status-update{
+	clear: both;
+	position: relative;
+	top: 10px;
+}
+
+.status-count{
+	display: inline;
+	position: relative;
+	top: -10px;
+	font-size: 10px;
+
+}
+
+.exclamation-mark{
+	position: relative;
+	border-radius: 100%;
+	left: 90px;
+	top: -10px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	font-size: 15px;
+	text-align: center;
+
+	
+	background-color: red;
+	color: white;
+}
+
+#follow-box{
+	width: 440px;
+	height: 30px;
+	background-color: gray;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+#button-color{
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	border: 2px solid white;
+}
+
+
+#follow-button{
+	position: relative;
+	left: 120px;
+	top:4px;
+	
+	
+}
+
+#to-comment{
+	position: relative;
+	left: 130px;
+	top: 4px;
+}
+
+
+
+.hline { 
+	position: relative;
+	left: 50px;
+	width:80%; 
+	height:1px; 
+	background: black;
+}
+
+#lisa{
+	color: brown;
+}
+
+#comment-box{
+
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 350px;
+	height: 200px;
+	font-size: 10px;
+
+}
+
+#comment{
+	width: 300px;
+}
+
+#twos-box{
+	width: 440px;
+	height: 30px;
+	background-color: lightgray;
+	border: 2px solid none;
+	border-radius: 5px;
+}
+
+#twos{
+	position: relative;
+	left: 350px;
+	top: 8px;
+}
+#blue-twos{
+	color: blue;
+}
