@@ -3,14 +3,14 @@ body{
 	width: 440px;
 }
 
-.blessing-platinum{
+.profile-picture{
 	border-radius: 100% 100% 0% 100%;
 	float: left;
 }
 
-.blessing-platinum-name{
+.name{
 	position: relative;
-	top: 20px;
+	top: 10px;
 	left: 10px;
 
 }
@@ -23,16 +23,22 @@ body{
 	color: black;
 }
 
-#hours-ago-gray{
+.hours-ago-dim{
 	color: gray;
 	position: relative;
-	left: 40px;
+	
+	left: 12%;
 }
 
 .status-update{
 	clear: both;
 	position: relative;
 	top: 10px;
+	width: 330px;
+	margin-right: auto;
+	margin-left: auto;
+
+
 }
 
 .status-count{
@@ -46,15 +52,12 @@ body{
 .exclamation-mark{
 	position: relative;
 	border-radius: 100%;
-	left: 90px;
-	top: -10px;
 	display: inline-block;
+	float: right;
 	width: 20px;
 	height: 20px;
 	font-size: 15px;
 	text-align: center;
-
-	
 	background-color: red;
 	color: white;
 }
@@ -67,6 +70,13 @@ body{
 	border-radius: 5px;
 }
 
+#follow-content{
+	display: block;
+	position: relative;
+	text-align: center;
+	
+}
+
 #button-color{
 	background-color: black;
 	border-radius: 5px;
@@ -75,25 +85,18 @@ body{
 }
 
 
-#follow-button{
-	position: relative;
-	left: 120px;
-	top:4px;
-	
-	
-}
-
 #to-comment{
-	position: relative;
-	left: 130px;
-	top: 4px;
+	color: white;
 }
 
 
 
 .hline { 
 	position: relative;
-	left: 50px;
+	display: block;
+
+	margin-right: auto;
+	margin-left: auto;
 	width:80%; 
 	height:1px; 
 	background: black;
@@ -108,14 +111,20 @@ body{
 	border-left: 2px solid black;
 	border-right: 2px solid black;
 	border-bottom: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
 	width: 350px;
 	height: 200px;
 	font-size: 10px;
 
 }
 
-#comment{
+.comment{
 	width: 300px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
 }
 
 #twos-box{
@@ -131,6 +140,6 @@ body{
 	left: 350px;
 	top: 8px;
 }
-#blue-twos{
+#colored-twos{
 	color: blue;
 }
